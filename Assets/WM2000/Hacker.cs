@@ -18,11 +18,12 @@ public class Hacker : MonoBehaviour
 
     void ShowMainMenu()
     {
-        Terminal.ClearScreen();
-        Terminal.WriteLine("Hello Neo.  The Matrix has you.");
+        string greeting = "Parker";        
+        Terminal.ClearScreen();        
+        Terminal.WriteLine("Hello " + greeting + ".  The Matrix has you.");
         Terminal.WriteLine("Think about your way out.\nEach selection becomes more difficult.");
         Terminal.WriteLine("However, the rewards increase as well.\nChoose the hack...");
         Terminal.WriteLine("\n1) Library Server\n2) Bank Server\n3) CIA Operations.");
         Terminal.WriteLine("Choose your destiny:");
-    }
+    }    
 }
